@@ -1,6 +1,11 @@
 # Integrar feed do instagram com website
 Este projeto tem o intuito de auxiliar o desenvolvedor na integração dos feeds do instagram com o website. 
 
+## Demos
+
+* [Demo via JS (codepen)](https://codepen.io/rahelwilliam/pen/OGMXbR).
+* [Demo via JS (jsfiddle)](https://jsfiddle.net/rahelwilliam/bg5jcu4w/22/).
+
 ## O que é preciso para implementar?
 Para esta função é possível realizar duas formas de integração, conforme passos abaixo:
 
