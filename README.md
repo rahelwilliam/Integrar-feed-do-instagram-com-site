@@ -30,10 +30,12 @@ Caso você já seja experiente e queira simplesmente utilizar a função sem seg
 var userFeed = new Instafeed({
   get: 'user',
   sortBy: 'most-recent',
-  userId: '2813446918',
+  // userId é os primeiros numerais gerados pelo token até o ponto
+  userId: '1234567890',
   limit: 9,
   template: '<a href="{{link}}" class="feed-a" target="_blank"><img src="{{image}}" class="feed-img" /></a>',
-  accessToken: '2813446918.1677ed0.409a2c4a8d7e46eca33ba9aa33358b43'
+  // O Token é gerado após criação da API do instagram
+  accessToken: '1234567890.1677ed0.409a2c4a8d7e46eca33ba9aa33358b43'
 });
 // Executando a variável "userFeed" com a função "run();"
 userFeed.run();
