@@ -6,7 +6,7 @@ Este projeto tem o intuito de auxiliar o desenvolvedor na integração dos feeds
 * [Demo via JS (codepen)](https://codepen.io/rahelwilliam/pen/OGMXbR).
 * [Demo via JS (jsfiddle)](https://jsfiddle.net/rahelwilliam/bg5jcu4w/22/).
 
-* [Demo via PHP ()](https://paiza.io/projects/e/TptMk1T9v-FpKe4xOGPWTw?theme=chaos).
+* [Demo via PHP (paiza)](https://paiza.io/projects/e/TptMk1T9v-FpKe4xOGPWTw?theme=chaos).
 
 ## O que é preciso para implementar?
 Para esta função é possível realizar duas formas de integração, conforme passos abaixo:
