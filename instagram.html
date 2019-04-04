@@ -1,0 +1,41 @@
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/instafeed.js/1.4.1/instafeed.min.js"></script>
+
+<script type="text/javascript">
+var userFeed = new Instafeed({
+  get: 'user',
+  sortBy: 'most-recent',
+  userId: '2813446918',
+  limit: 9,
+  template: '<a href="{{link}}" class="feed-a" target="_blank"><img src="{{image}}" class="feed-img" /></a>',
+  accessToken: '2813446918.1677ed0.409a2c4a8d7e46eca33ba9aa33358b43'
+});
+userFeed.run();
+</script>
+
+<style>
+#instafeed {
+  float: initial;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+#instafeed img {
+  margin: 2px;
+}
+</style>
+
+<div class="feed-ul">
+  <div id="instafeed"></div>
+</div>
